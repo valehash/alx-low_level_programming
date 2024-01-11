@@ -1,10 +1,9 @@
 #include "lists.h"
 /**
- *
- *
- *
+ * print_dlistint - function that prints the lenght of a list and the values
+ * @h: The head of the list
+ * Return: returns 0 if null and the lenght of list if not null
  */
-
 size_t print_dlistint(const dlistint_t *h)
 {
 	size_t i;
